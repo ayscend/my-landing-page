@@ -79,3 +79,34 @@ a {
 }
 
 /* INFO AND PHOTO CARDS */
+
+.info { 
+    display: flex; 
+    flex-direction: column; 
+    padding: 20px 100px; 
+} 
+    
+.info-title { 
+    color: #1f2937; 
+    font-weight: 900; 
+    font-size: 36px; 
+    display: flex; 
+    justify-content: center; 
+} 
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards figure {
+    text-align: center;
+    margin: 1em;
+}
+.cards img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+    border: #3882f6 solid 2px;
+}
