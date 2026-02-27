@@ -88,6 +88,8 @@ a {
     
 .info-title { 
     color: #1f2937; 
+    margin: 0;
+    padding: 0;
     font-weight: 900; 
     font-size: 36px; 
     display: flex; 
@@ -110,3 +112,26 @@ a {
     border-radius: 5px;
     border: #3882f6 solid 2px;
 }
+
+/* QUOTE SECTION */
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 40px 300px;
+    margin: 0px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.quote h2 {
+    font-weight: 300;
+    color: #1f2937;
+    font-size: 36px;
+}
+
+.quote p {
+    display: flex;
+    justify-content: flex-end;
+}
+
