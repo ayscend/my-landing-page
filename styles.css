@@ -5,9 +5,10 @@ body {
 
 button {
     background-color: #3882f6;
+    color: white;
     border-radius: 8px;
     border: none;
-    padding: 8px 24px;
+    padding: 8px 20px;
     font-weight: 600;
     width: fit-content;
 }
@@ -81,33 +82,36 @@ a {
 /* INFO AND PHOTO CARDS */
 
 .info { 
+    padding: 40px 100px; 
+
     display: flex; 
     flex-direction: column; 
-    padding: 20px 100px; 
 } 
     
 .info-title { 
     color: #1f2937; 
     margin: 0;
-    padding: 0;
     font-weight: 900; 
     font-size: 36px; 
+
     display: flex; 
     justify-content: center; 
+    align-items: center;
 } 
 
 .cards {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    gap: 32px;
 }
 
 .cards figure {
+    margin: 0;
     text-align: center;
-    margin: 1em;
 }
 .cards img {
-    width: 200px;
+    width: 250px;
     height: auto;
     border-radius: 5px;
     border: #3882f6 solid 2px;
@@ -117,21 +121,58 @@ a {
 
 .quote {
     background-color: #E5E7EB;
-    padding: 40px 300px;
-    margin: 0px;
+    padding: 120px 0;
+}
 
-    display: flex;
-    flex-direction: column;
+.quote-container {
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .quote h2 {
     font-weight: 300;
     color: #1f2937;
     font-size: 36px;
+    margin: 0 0 20px 0;
 }
 
 .quote p {
+    text-align: right;
+    font-weight: 700;
+    margin: 0;
+}
+/* CTA SECTION */
+
+.CTA {
+    padding: 100px 100px;
+
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
 }
 
+.blue-box {
+    background-color: #3882f6;
+    padding: 40px 80px;
+    border-radius: 8px;
+
+    display: flex;
+}
+
+.left-text h3 {
+    color: white;
+    margin: 0;
+}
+
+.left-text p {
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.left-text {
+    margin-right: 50px;
+}
+
+.blue-box button {
+    border: 2px solid white;
+}
